@@ -1,0 +1,43 @@
+<HTML>
+    <HEAD>
+        <META NAME="GENERATOR" Content="Microsoft Visual Studio">
+
+        <link rel="stylesheet" href="style.css" />
+
+        <TITLE>Document Word Checker</TITLE>
+    </HEAD>
+
+
+    <BODY>
+        <header>
+            <h1>Document Word Checker</h1>
+        </header>
+
+        <main>
+
+            <div class="main_process">
+                <div class="input">
+                    <label for="user_input_text">Enter Text:</label><br/><br/>
+                    <textarea id="user_input_text" name="user_input_text" 
+                              placeholder="The story so far: in the beginning, the universe was created. This has made a lot of people very angry and been widely regarded as a bad move."
+                              rows="20" cols="80"></textarea><br/>
+                    <input type="button" value="Submit!" onclick="user_input_text_submission()"/>
+                </div>
+                <div class="output">
+                    Text Results: <br/>
+                    <pre id="output_space"></pre>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            GitHub Source | 
+            <a href="https://www.linkedin.com/in/caroline-zhang-09b645224/">
+                My LinkedIn!</a>
+        </footer>
+
+
+        <script src="main.js"></script>
+    </BODY>
+</HTML>

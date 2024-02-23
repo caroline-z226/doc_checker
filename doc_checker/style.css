@@ -1,0 +1,32 @@
+BODY
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.main_process {
+    display: flex;
+}
+.input {
+    flex: 40%;
+}
+.output {
+    flex: 40%;
+}
+
+main {
+    flex: 1;
+}
+
+/*  https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+    ^ make footer stick to bottom
+*/
+footer {
+    text-align: center;
+}
